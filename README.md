@@ -1,6 +1,6 @@
 # FAF-Net for FSMIS
 
-![image](https://github.com/zmcheng9/GMRD/blob/main/overview.png)
+![image](https://github.com/zmcheng9/FAF-Net/tree/main/imgs/overview.png)
 
 ### Abstract
 Manual annotation of massive data in the biomedical field necessitates huge costs, expertise, and privacy considerations. However, Few-Shot Medical Image Segmentation (FSMIS) offers the possibility of learning a segmentation model with excellent performance from limited medical data. In this paper, we propose a Frequency-aware Adaptive Filtering Network (FAF-Net) for FSMIS, which is the first to calibrate the correlations between support prototype and query features from a frequency perspective, addressing the problems of FSMIS. The FAF-Net mines the commonalities between the support prototype and query features to reduce the intra-class differences through an Intra-class Commonality Miner (ICM), and introduces an Adaptive Fourier Filter (AFF) to adaptively filter the spectrum of the attention map, thus balancing the foreground and background classes. Additionally, an Adaptive Threshold Learner (ATL) is incorporated to learn an adaptive threshold for each spatial location of the predicted mask from the support features, overcoming the limitations of single thresholding. Extensive experiments on four generic medical datasets showcase that our model significantly outperforms SoTA methods (exceeding SoTA by 2.13\% on average).
